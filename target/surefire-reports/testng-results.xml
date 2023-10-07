@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-26T19:49:39 IST" name="Surefire suite" finished-at="2023-08-26T19:49:44 IST" duration-ms="4891">
+    <groups>
+    </groups>
+    <test started-at="2023-08-26T19:49:39 IST" name="Surefire test" finished-at="2023-08-26T19:49:44 IST" duration-ms="4891">
+      <class name="SumValidationTest">
+        <test-method signature="sumOfCoursesTest()[pri:0, instance:SumValidationTest@7b02881e]" started-at="2023-08-26T19:49:39 IST" name="sumOfCoursesTest" finished-at="2023-08-26T19:49:44 IST" duration-ms="4753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumOfCoursesTest -->
+      </class> <!-- SumValidationTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
