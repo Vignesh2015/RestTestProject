@@ -46,6 +46,7 @@ public class Basics {
         JsonPath js = ReusableMethods.jsonResponse(response);
         String addPlace = js.getString("place_id");
         System.out.println("Added Place is " + addPlace);
+        System.out.println("New Test added");
 
         /****Updating the New Place*******/
 

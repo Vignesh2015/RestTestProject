@@ -86,10 +86,10 @@ public class EcommerceAPITest {
         addCartProduct.setProductFor("All");
         addCartProduct.setProductAddedBy(userId);
         addCartProduct.set__v(0);
-
+        System.out.println("New Test added");
         AddCartProduct addCart = new AddCartProduct();
         addCart.set_id(userId);
-        addCart.setProduct(addCartProduct);
+        //addCart.setProduct(addCartProduct);
         RequestSpecification addCartReqSpec = given().log().all().spec(addCartBaseReq).body(addCart);
 
         String addCartResp = addCartReqSpec.when().post("/api/ecom/user/add-to-cart")
